@@ -11,8 +11,7 @@ setup(
     py_modules=['xs'],
     install_requires=[
         'flask',
-        'pyngrok',
-        'transformers'
+        'pyngrok'    
     ],
     zip_safe=False
 )
