@@ -11,7 +11,8 @@ setup(
     py_modules=['xs'],
     install_requires=[
         'flask',
-        'pyngrok'    
+        'pyngrok',
+        'waitress'
     ],
     zip_safe=False
 )
