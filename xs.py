@@ -65,6 +65,9 @@ def connect_text(public_url, data):
         print("Failed to decode JSON response")
         print(response.text) 
 
+#empty generate checking 
+def generate(prompt):
+  pass
 
 #this is a specific route for the api(endpoint) in which we can post prompt and get inference responses
 #YOUR LLM GENERATION FUNCTION SHOULD BE NAMED WITH :: generate :: elsewise it wont work
