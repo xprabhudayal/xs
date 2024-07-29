@@ -1,0 +1,75 @@
+# 📝 XS Module Documentation
+The workflow of the XS module, with a tagline : ***xs makes you access***
+[![xs-module.png](https://i.postimg.cc/pT38G84v/xs-module.png)](https://postimg.cc/KkrR4Kmp)
+
+This module leverages ***Flask, Pyngrok, and Waitress*** to create a simple API endpoint for text generation of all ***Open Source LLMs***.
+ 
+## 🚀 Features
+
+- 🌐 **API Endpoint Creation**: Easily create an API endpoint to access the text generation function.
+- 🔀 **Dynamic Port Allocation**: Automatically find an available port to avoid conflicts.
+- 🚧 **Ngrok Tunneling**: Expose your local server to the internet using Ngrok.
+- 🔄 **Flushing Tunnels**: Clear previous Ngrok tunnels to avoid the max tunnel limit.
+
+## 📦 Installation
+
+To use this module, you need to install by the following command :
+
+```bash
+pip install 'git+https://github.com/xprabhudayal/xs.git'
+```
+
+## 📋 Usage
+### 1.1 Watch this video for coding tutorial 
+[![LinkedIn Video](https://i.ibb.co/fn1tzsf/xs-intro.png)](https://www.linkedin.com/posts/xprabhudayal_interactive-tutorial-on-how-to-use-the-xs-activity-7223727702548090881-ik7s?utm_source=share&utm_medium=member_desktop)
+
+### 1.2 Watch this one for better understanding what is XS module
+[![LinkedIn Video](https://i.ibb.co/wWnTJZW/xs.png)](https://www.linkedin.com/feed/update/urn:li:activity:7223539588932227072/)
+
+then do 
+```bash
+import xs
+```
+
+### 2. Finding an Available Port
+
+The `find_port` function dynamically finds an available port.
+
+### 3. Forward Function
+
+The `forward` function sets up the Ngrok tunnel and starts the server using Waitress. This function continuously tries to connect to a public URL via Ngrok and serves the Flask app on the assigned port. If the Ngrok tunnel limit is reached, it suggests using the `flush` function.
+
+### 4. Connect Text Function
+
+The `connect_text` function allows remote devices to access the API and use the text generation option. It sends a POST request to the API endpoint with the provided data and prints the generated text response.
+
+### 5. Generate Text Route
+
+The `/generate` route handles the prompt and returns the generated text. This is the specific route for posting prompts and receiving inference responses from the text generation function.
+
+### 6. Flushing Tunnels
+
+The `flush` function clears all previous Ngrok tunnels. This is useful if you encounter the maximum tunnel limit error from Ngrok.
+
+
+## 🔧 Future Features
+
+- **Port Killing**: Automatically kill processes using specific ports before starting the server.
+- **Enhanced Error Handling**: Improve the robustness of error handling mechanisms.
+
+## 🛠 Troubleshooting
+
+- **Ngrok Tunnel Error**: If you encounter a max tunnel limit, use the `flush` function to clear previous tunnels.
+- **JSON Decode Error**: Ensure the API response is correctly formatted JSON.
+
+## License 📄
+This project is licensed under the MIT License.
+
+## Contact 📧
+For any inquiries, please reach me at : [MAIL](mailto:pradachan@tuta.io )
+
+
+Made with 💖 by Prabhudayal
+---
+
+Enjoy using the `xs.py` module! 🚀
