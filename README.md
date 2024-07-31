@@ -1,5 +1,8 @@
-# 📝 XS Module Documentation
-The workflow of the XS module, with a tagline : ***xs makes you access***
+# <p align = 'center'> 📝 XS Module Documentation </p>
+<p align = 'center'>
+The workflow of the XS module, with a tagline : <b>xs makes you access</b>
+</p>
+
 [![xs-module.png](https://i.postimg.cc/pT38G84v/xs-module.png)](https://postimg.cc/KkrR4Kmp)
 
 This module leverages ***Flask, Pyngrok, and Waitress*** to create a simple API endpoint for text generation of all ***Open Source LLMs***.
@@ -20,16 +23,27 @@ pip install 'git+https://github.com/xprabhudayal/xs.git'
 ```
 
 ## 📋 Usage
-### 1.1 Watch this video for coding tutorial 
-[![LinkedIn Video](https://i.ibb.co/fn1tzsf/xs-intro.png)](https://www.linkedin.com/posts/xprabhudayal_interactive-tutorial-on-how-to-use-the-xs-activity-7223727702548090881-ik7s?utm_source=share&utm_medium=member_desktop)
+### 1 Watch these videos for better Understanding
 
-### 1.2 Watch this one for better understanding what is XS module
-[![LinkedIn Video](https://i.ibb.co/wWnTJZW/xs.png)](https://www.linkedin.com/feed/update/urn:li:activity:7223539588932227072/)
+<table >
+  <tr >
+    <td >
+      <a href="https://www.linkedin.com/posts/xprabhudayal_interactive-tutorial-on-how-to-use-the-xs-activity-7223727702548090881-ik7s?utm_source=share&utm_medium=member_desktop">
+        <img src="https://i.ibb.co/fn1tzsf/xs-intro.png" alt="LinkedIn Video" width="400"/>
+      </a>
+    </td>
+    <td>
+    <td>
+    </td>
+    </td>
+    <td>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7223539588932227072/">
+        <img src="https://i.ibb.co/wWnTJZW/xs.png" alt="LinkedIn Video" width="400"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
-then do 
-```bash
-import xs
-```
 
 ### 2. Finding an Available Port
 
