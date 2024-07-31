@@ -22,7 +22,7 @@ To use this module, you need to install by the following command :
 pip install 'git+https://github.com/xprabhudayal/xs.git'
 ```
 
-## 📋 Usage
+## 📋 Tutorials and Usage
 ### 1 Watch these videos for better Understanding
 
 <table >
@@ -46,24 +46,24 @@ pip install 'git+https://github.com/xprabhudayal/xs.git'
 
 
 ### 2. Finding an Available Port
+### `xs.find_port()`
 
-The `find_port` function dynamically finds an available port.
+ It dynamically finds an available port.
 
-### 3. Forward Function
+### 3. Forward Function 
+### `xs.forward(NGROK_API)`
 
-The `forward` function sets up the Ngrok tunnel and starts the server using Waitress. This function continuously tries to connect to a public URL via Ngrok and serves the Flask app on the assigned port. If the Ngrok tunnel limit is reached, it suggests using the `flush` function.
+The `xs.forward()` function sets up the Ngrok tunnel and starts the server using Waitress. `NGROK_API` is required here.
 
-### 4. Connect Text Function
+### 4. Connect Text Function 
+### `xs.connect_text(url, prompt)`
 
 The `connect_text` function allows remote devices to access the API and use the text generation option. It sends a POST request to the API endpoint with the provided data and prints the generated text response.
 
-### 5. Generate Text Route
+### 5. Flushing Tunnels 
+### `xs.flush()`
 
-The `/generate` route handles the prompt and returns the generated text. This is the specific route for posting prompts and receiving inference responses from the text generation function.
-
-### 6. Flushing Tunnels
-
-The `flush` function clears all previous Ngrok tunnels. This is useful if you encounter the maximum tunnel limit error from Ngrok.
+The `flush` function clears all previous Ngrok tunnels. **In the free tier, you can have 3 tunnels only!** This is useful if you encounter the maximum tunnel limit error from Ngrok.
 
 
 ## 🔧 Future Features
