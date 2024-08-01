@@ -1,6 +1,7 @@
 # <p align = 'center'> 📝 XS Module Documentation </p>
 <p align = 'center'>
-The workflow of the XS module, with a tagline : <b>xs makes you access</b>
+The workflow of the XS module, with a tagline : <b>xs makes you access</b> : install using
+<code align = 'center'>pip install llm-xs</code>
 </p>
 
 [![xs-module.png](https://i.postimg.cc/pT38G84v/xs-module.png)](https://postimg.cc/KkrR4Kmp)
