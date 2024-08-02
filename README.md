@@ -33,7 +33,13 @@ pip install 'git+https://github.com/xprabhudayal/xs.git'
         <img src="https://i.ibb.co/fn1tzsf/xs-intro.png" alt="LinkedIn Video" width="400"/>
       </a>
     </td>
+   <td>
+    </td>
     <td>
+     <a href="https://www.youtube.com/watch?v=kLhtd0kM7tk">
+     <img src="https://i.postimg.cc/t4wfdBDc/xs-hindi.png" width='400'>
+     </a>
+    </td>
     <td>
     </td>
     </td>
